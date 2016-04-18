@@ -13,7 +13,6 @@ if (!startup_snapshot_load('myapp')) {
 }
 ```
 
-
 TODO
 ----
 
@@ -24,3 +23,11 @@ TODO
  - [ ] Array
  - [ ] Long number
  - [ ] String
+ - [ ] Functions
+ - [ ] Closures
+
+SPL autoload functions could be copied from `spl_autoload_functions`, which uses 
+
+```c
+SPL_G(autoload_functions);
+```
