@@ -25,6 +25,7 @@ TODO
  - [ ] String
  - [ ] Functions
  - [ ] Closures
+ - [ ] Global module structure
 
 SPL autoload functions could be copied from `spl_autoload_functions`, which uses 
 
